@@ -1,0 +1,156 @@
+body{
+    background-color: black;
+}
+
+.nav-fondo{
+  background-color: #34A949;
+}
+.navbar.border-bottom {
+    border-bottom-width: 1px !important;
+    border-color: black !important;
+  }
+
+  .formulario-ingreso{
+    background-color: white;
+    float: right;
+    position: fixed;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 30%;
+    height: 50%;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+  }
+  .formulario-registro{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border: 1px solid #ccc;
+    width: 30%;
+    height: 50%;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 0 0 10px #ccc;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+  }
+  
+  .datos-formulario{
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .ingreso-datos {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .btn-ingreso {
+    background-color: black;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .btn-ingreso:hover {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .contenedor-imagenes{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 60%;
+    height: 70%;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-4 {
+    flex: 0 0 auto;
+    width: 33.33333%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .carousel{
+    width: 800px; 
+    margin: 0 auto; 
+    background-color: white;
+    margin-top: 100px;
+    height: 400px;
+  }
+  
+  .carousel-item img {
+    width: 300px;
+    height: 360px;
+  }
+
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #000;
+    opacity: 0.5;
+  }
+
+  .contenedor-slide{
+    background-color: white;
+    height: 400px; 
+    width: 800px;
+    padding: 20px;
+  }
+
+  .contenedor-noticias{
+    background-color: white;
+    height: 400px;
+    width: 800px;
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  .contenedor-inicio{
+    padding-left: 60px;
+  }
+
+  .contenedor-inicio-p{
+    margin: auto;
+    width: 100%;
+    color: white;
+    padding-left: 600px;
+ 
+  }
+
+  .contenedor-noticias-p{
+   border: 1px solid white;
+    height: 360px;
+    width: 800px;
+    margin-top: 50px;
+  }
+
+
+
+  
+  
