@@ -1,17 +1,27 @@
 body{
-    background-color: black;
+    background-image: url("img/fondo.jpg");
+    Background-repeat:no-repeat;
+    Background-size:cover;
+    background-attachment: fixed;
 }
 
-.nav-fondo{
+.mi-nav{
   background-color: #34A949;
+  
+  color: white
 }
+
+.mi-nav2{
+  background-color: white;
+}
+
 .navbar.border-bottom {
     border-bottom-width: 1px !important;
     border-color: black !important;
   }
 
   .formulario-ingreso{
-    background-color: white;
+    background-color: #34A949;
     float: right;
     position: fixed;
     right: 0;
@@ -23,6 +33,9 @@ body{
     height: 50%;
     box-shadow: 0 0 10px #ccc;
     border-radius: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
   }
   .formulario-registro{
     display: flex; 
@@ -34,9 +47,10 @@ body{
     margin: auto;
     margin-top: 10%;
     box-shadow: 0 0 10px #ccc;
-    background-color: white;
+    background-color: #34A949;
     border-radius: 10px;
     padding: 50px;
+    color: white;
   }
   
   .datos-formulario{
@@ -62,14 +76,13 @@ body{
     padding: 10px 20px;
     border-radius: 3px;
     cursor: pointer;
-    border-style: solid;
-    border-color: white;
   }
   
   .btn-ingreso:hover {
     background-color: white;
     border-style: solid;
     border-color: black;
+    color: black;
   }
 
   .contenedor-imagenes{
@@ -98,42 +111,18 @@ body{
     height: auto;
   }
   
-  .carousel{
-    width: 800px; 
-    margin: 0 auto; 
-    background-color: white;
-    margin-top: 100px;
-    height: 400px;
-  }
-  
-  .carousel-item img {
-    width: 300px;
-    height: 360px;
-  }
 
-  .carousel-control-prev:hover, .carousel-control-next:hover {
-    background-color: #000;
-    opacity: 0.5;
-  }
 
-  .contenedor-slide{
-    background-color: white;
-    height: 400px; 
-    width: 800px;
-    padding: 20px;
-  }
-
-  .contenedor-noticias{
-    background-color: white;
+  .contenedor-productos-p{
+    background:none;
     height: 400px;
     width: 800px;
     margin-top: 50px;
     padding: 20px;
+    color: white
   }
 
-  .contenedor-inicio{
-    padding-left: 60px;
-  }
+
 
   .contenedor-inicio-p{
     margin: auto;
@@ -143,12 +132,6 @@ body{
  
   }
 
-  .contenedor-noticias-p{
-   border: 1px solid white;
-    height: 360px;
-    width: 800px;
-    margin-top: 50px;
-  }
 
 
 
